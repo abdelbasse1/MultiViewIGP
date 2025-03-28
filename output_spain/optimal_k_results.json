@@ -1,0 +1,110 @@
+{
+  "Color": {
+    "optimal_k": 4,
+    "method": "kmeans",
+    "metrics": {
+      "silhouette": 0.23012705147266388,
+      "calinski_harabasz": 65.22351066227453,
+      "davies_bouldin": 2.312920567457997,
+      "ari": NaN,
+      "ari_mean": 0.07814809103557978,
+      "ari_max": 0.25127166163529263
+    }
+  },
+  "Texture": {
+    "optimal_k": 2,
+    "method": "spectral",
+    "metrics": {
+      "silhouette": 0.2154876917756611,
+      "calinski_harabasz": 12.4171674923062,
+      "davies_bouldin": 1.76075201705138,
+      "ari": NaN,
+      "ari_mean": 0.0013341015316274418,
+      "ari_max": 0.03143486111136653
+    }
+  },
+  "Deep_VGG16": {
+    "optimal_k": 2,
+    "method": "kmeans",
+    "metrics": {
+      "silhouette": 0.24402368068695068,
+      "calinski_harabasz": 29.69710699078074,
+      "davies_bouldin": 3.3715725310551763,
+      "ari": NaN,
+      "ari_mean": 0.07171726230200151,
+      "ari_max": 0.6863726966825588
+    }
+  },
+  "Deep_ResNet50": {
+    "optimal_k": 2,
+    "method": "kmeans",
+    "metrics": {
+      "silhouette": 0.10064836591482162,
+      "calinski_harabasz": 19.31670339782123,
+      "davies_bouldin": 4.675169545349822,
+      "ari": NaN,
+      "ari_mean": 0.049362312141214,
+      "ari_max": 0.145631043546852
+    }
+  },
+  "Deep_EfficientNet": {
+    "optimal_k": 2,
+    "method": "kmeans",
+    "metrics": {
+      "silhouette": 0.12280596047639847,
+      "calinski_harabasz": 26.266820547738455,
+      "davies_bouldin": 3.570167177120345,
+      "ari": NaN,
+      "ari_mean": 0.11191418488784895,
+      "ari_max": 0.8775605567340349
+    }
+  },
+  "Deep_MobileNet": {
+    "optimal_k": 2,
+    "method": "kmeans",
+    "metrics": {
+      "silhouette": 0.03969461843371391,
+      "calinski_harabasz": 19.08011104649135,
+      "davies_bouldin": 4.673743759301207,
+      "ari": NaN,
+      "ari_mean": 0.16477044489315965,
+      "ari_max": 0.7361834774931761
+    }
+  },
+  "Deep_DenseNet": {
+    "optimal_k": 2,
+    "method": "kmeans",
+    "metrics": {
+      "silhouette": 0.08014734834432602,
+      "calinski_harabasz": 37.203941764622705,
+      "davies_bouldin": 3.3183136982415156,
+      "ari": NaN,
+      "ari_mean": 0.14702548199629728,
+      "ari_max": 0.6121110828377765
+    }
+  },
+  "Deep_Combined": {
+    "optimal_k": 2,
+    "method": "kmeans",
+    "metrics": {
+      "silhouette": 0.09650149196386337,
+      "calinski_harabasz": 21.173429871153484,
+      "davies_bouldin": 3.9528708112805786,
+      "ari": NaN,
+      "ari_mean": 0.12214586459644972,
+      "ari_max": 0.8775605567340349
+    }
+  },
+  "Symmetry": {
+    "optimal_k": 2,
+    "method": "kmeans",
+    "metrics": {
+      "silhouette": 0.29168707133006044,
+      "calinski_harabasz": 142.447274626835,
+      "davies_bouldin": 1.5125764413353036,
+      "ari": NaN,
+      "ari_mean": -0.0007856364549022642,
+      "ari_max": 0.027014998051974992
+    }
+  }
+}
