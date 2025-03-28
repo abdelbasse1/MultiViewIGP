@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\caption{Evaluation of Different Feature Types for Islamic Pattern Clustering}
+\begin{tabular}{lccccc}
+\hline
+Feature Type & Optimal k & Silhouette Score & Calinski-Harabasz & Davies-Bouldin & ARI with Final \\
+\hline
+Color & 2 & 0.1295 & 90.4 & 2.5313 & 0.3202 \\
+Texture & 2 & 0.2170 & 21.8 & 3.5457 & 0.0008 \\
+Deep_VGG16 & 2 & 0.0951 & 26.1 & 4.7099 & 0.2612 \\
+Deep_ResNet50 & 2 & 0.0980 & 24.7 & 4.8661 & 0.3230 \\
+Deep_EfficientNet & 2 & 0.0468 & 29.8 & 4.4785 & 0.2349 \\
+Deep_MobileNet & 2 & 0.0933 & 25.3 & 4.6274 & 0.2025 \\
+Deep_DenseNet & 2 & 0.0492 & 32.6 & 4.3482 & 0.2746 \\
+Deep_Combined & 2 & 0.1327 & 8.5 & 1.9606 & 0.0078 \\
+Symmetry & 2 & 0.3029 & 237.9 & 1.4841 & 0.1358 \\
+\hline
+\end{tabular}
+\label{tab:feature_evaluation}
+\end{table}
