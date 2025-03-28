@@ -1,0 +1,11 @@
+{
+  "Color": "(431, 96)",
+  "Texture": "(431, 1577)",
+  "Deep_VGG16": "(431, 512)",
+  "Deep_ResNet50": "(431, 2048)",
+  "Deep_EfficientNet": "(431, 1280)",
+  "Deep_MobileNet": "(431, 1280)",
+  "Deep_DenseNet": "(431, 1024)",
+  "Deep_Combined": "(431, 6144)",
+  "Symmetry": "(431, 8)"
+}
